@@ -1,0 +1,18 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="36" cy="36" r="26" fill="#FDE8E4"></circle>
+
+  <!-- person head -->
+  <circle cx="34" cy="29" r="5.5" fill="#FF5A3C"></circle>
+
+  <!-- person body -->
+  <path d="M25.5 46C25.5 41.8579 28.8579 38.5 33 38.5H35C39.1421 38.5 42.5 41.8579 42.5 46V48.5H25.5V46Z" fill="#FF5A3C"></path>
+
+  <!-- coin outline -->
+  <circle cx="46.5" cy="41.5" r="7.5" stroke="#FF5A3C" stroke-width="2"></circle>
+
+  <!-- coin vertical line -->
+  <path d="M46.5 37.8V45.2" stroke="#FF5A3C" stroke-width="1.4" stroke-linecap="round"></path>
+
+  <!-- coin dollar-ish curve -->
+  <path d="M49.1 39.3C48.7 38.55 47.9 38.1 46.95 38.1C45.85 38.1 45.1 38.7 45.1 39.55C45.1 41.3 48.95 40.55 48.95 42.65C48.95 43.55 48.05 44.2 46.9 44.2C45.95 44.2 45.15 43.8 44.7 43.1" stroke="#FF5A3C" stroke-width="1.2" stroke-linecap="round"></path>
+</svg>

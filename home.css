@@ -1,0 +1,2090 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Poppins", Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.top-bar {
+  height: 5rem;
+  background-color: #071c1f;
+  font-size: 1.3rem;
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.contact {
+  color: white;
+  display: flex;
+}
+.email > svg,
+.address > svg {
+  color: rgb(255, 102, 0);
+}
+.email,
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.64rem;
+}
+.address {
+  margin-left: 1.6rem;
+}
+.social {
+  display: flex;
+  color: white;
+  gap: 1.6rem;
+}
+.social > svg:hover {
+  color: rgb(255, 102, 0);
+}
+.navbar {
+  height: 7rem;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo img {
+  height: 100%;
+  width: 15rem;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #233638;
+  gap: 3rem;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+.nav-items a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-items > li:hover {
+  color: rgb(255, 102, 0);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
+.btn {
+  height: 4.5rem;
+  padding: 0 2rem;
+  color: #233638;
+  background-color: transparent;
+  font-family: inherit;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  gap: 2rem;
+}
+.btn:hover {
+  background-color: rgb(255, 102, 0);
+  color: white;
+}
+.hero {
+  background-color: #f2f6f7;
+  padding: 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  min-height: 55rem;
+  gap: 3.5rem;
+}
+.hero-content {
+  width: 36rem;
+  flex-shrink: 0;
+  padding-top: 13.8rem;
+  position: relative;
+  gap: 2rem;
+}
+
+.hero-tittle {
+  font-size: 4.2rem;
+  line-height: 1.15;
+  font-weight: 800;
+  color: #071c1f;
+  max-width: 36rem;
+}
+.hero-subttile {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #9aa8ad;
+  max-width: 32rem;
+}
+.btn-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+  background-color: rgb(255, 90, 60);
+  border-radius: 0.5rem;
+  font-weight: 400;
+  height: 3.8rem;
+  padding: 0 2rem;
+}
+.hero-arrow {
+  position: absolute;
+  width: 15rem;
+  left: 30rem;
+  top: 19rem;
+  z-index: 100;
+}
+.hero-visual {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  min-height: 50rem;
+}
+
+.hero-image {
+  width: 55.6rem;
+  height: 45.2rem;
+  background: #c6c6c6;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.revenue-card {
+  width: 15rem;
+  height: 12rem;
+  background: white;
+  border-radius: 1rem;
+  position: absolute;
+  left: -3rem;
+  top: 35rem;
+  padding: 2rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.revenue-card strong {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #071c1f;
+}
+
+.revenue-card span {
+  font-size: 1.1rem;
+  color: #9aa8ad;
+}
+.how-btn {
+  width: 12.7rem;
+  height: 4.7rem;
+  background: #ff5a3c;
+  color: white;
+  border: none;
+  border-radius: 0.5rem 0 0 0;
+  position: absolute;
+  left: 42.9rem;
+  top: 40.5rem;
+  right: auto;
+  bottom: auto;
+  font-size: 1rem;
+
+  box-shadow: 0 1.5rem 3rem rgba(255, 90, 60, 0.25);
+}
+.hero-slider {
+  position: absolute;
+  left: 0;
+  bottom: 0rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.houses {
+  display: flex;
+  align-items: flex-end;
+  width: 18.6rem;
+  height: 7rem;
+}
+
+.house-card {
+  width: 6.2rem;
+  height: 5.1rem;
+  background: #999;
+  color: white;
+  font-size: 0.6rem;
+  padding: 0.8rem;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.slider-line {
+  width: 1.6rem;
+  height: 0.15rem;
+  background: #071c1f;
+  margin-bottom: 1.8rem;
+}
+
+.slider-numbers {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  margin-left: 2rem;
+}
+
+.slider-numbers span {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #8fa0a6;
+  transition: all 0.3s ease;
+}
+
+.slider-numbers span:hover {
+  color: #071c1f;
+  font-size: 1.2rem;
+}
+
+.hero-slider .houses {
+  width: 28rem;
+}
+
+.hero-slider .house-1 {
+  width: 10rem;
+  height: 7rem;
+}
+
+.hero-slider:has(.num-1:hover) .house-1,
+.hero-slider:has(.num-2:hover) .house-2,
+.hero-slider:has(.num-3:hover) .house-3 {
+  width: 10rem;
+  height: 7rem;
+}
+
+.house-card:hover {
+  width: 10rem;
+  height: 7rem;
+}
+
+.hero-slider:has(.num-2:hover) .house-1,
+.hero-slider:has(.num-3:hover) .house-1,
+.hero-slider:has(.house-2:hover) .house-1,
+.hero-slider:has(.house-3:hover) .house-1 {
+  width: 6.2rem;
+  height: 5.1rem;
+}
+.feature-container {
+  padding: 10rem 0;
+}
+
+.guide-header {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.guide-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: center;
+  max-width: 59rem;
+  margin: 0 auto;
+}
+.guide-header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: center;
+  max-width: 43rem;
+  margin: 0 auto;
+  color: #9eabb2;
+}
+.guide-list {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.guide-card {
+  text-align: center;
+  height: 34rem;
+  width: 36rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  padding-top: 5rem;
+  background: white;
+  color: #071c1f;
+  transition: 0.3s ease;
+}
+.guide-card img {
+  width: 9rem;
+  height: 9rem;
+}
+.guide-card h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0 auto;
+  color: #071c1f;
+  padding-top: 2rem;
+  transition: 0.3s ease;
+}
+.guide-card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin: 0 auto;
+  color: #899aa2;
+  padding-top: 2.5rem;
+  transition: 0.3s ease;
+}
+
+.guide-card:hover {
+  background: #ff5a3c;
+}
+
+.guide-card:hover h3,
+.guide-card:hover p {
+  color: white;
+}
+.dream-component {
+  display: flex;
+  padding-top: 10rem;
+  min-height: 68rem;
+}
+.dream-image {
+  height: 32rem;
+  width: 34rem;
+  display: flex;
+  position: relative;
+}
+.dream-img-back {
+  width: 36rem;
+  height: 56rem;
+  left: 0;
+  bottom: 0;
+  top: 2rem;
+  background-color: #c4c4c4;
+  position: absolute;
+}
+.dream-img-front {
+  width: 36rem;
+  height: 56rem;
+  left: 10rem;
+  bottom: 0;
+  top: -5rem;
+  background-color: #c4c4c4;
+  z-index: 100;
+  position: absolute;
+}
+.rating {
+  position: absolute;
+  height: 12rem;
+  background-color: #071c1f;
+  width: 12rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 111;
+  right: -12rem;
+  top: -5.5rem;
+}
+.rating-star {
+  color: #ff5a3c;
+  font-size: 2.4rem;
+  line-height: 1;
+  margin-bottom: 0.6rem;
+}
+
+.rating-card p {
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+}
+.dream-content {
+  padding-left: 30rem;
+}
+.dream-content h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  max-width: 59rem;
+  margin: 0 auto;
+  color: #071c1f;
+}
+
+.dream-content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #899aa2;
+  padding: 2.5rem 0;
+  text-align: left;
+  width: 50rem;
+}
+
+.dream-content h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.4rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  max-width: 50rem;
+  color: #071c1f;
+}
+.feature-list {
+  width: 42rem;
+  height: auto;
+}
+.feature-list p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #899aa2;
+  padding: 0;
+  text-align: left;
+  width: 50rem;
+}
+.feature-list .features:hover {
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+.feature-list .features {
+  display: grid;
+  grid-template-columns: 4.8rem 1fr;
+  column-gap: 1.6rem;
+  align-items: start;
+  padding: 1.6rem 2rem;
+}
+
+.feature-list .features img {
+  grid-row: 1 / 3;
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-top: 0.6rem;
+}
+
+.feature-list .features h3 {
+  margin: 0;
+  line-height: 2.8rem;
+}
+
+.feature-list .features p {
+  margin: 0.4rem 0 0;
+  width: auto;
+}
+.services {
+  background-color: #f2f6f7;
+  height: 110rem;
+}
+
+.services-header {
+  padding-top: 10rem;
+}
+.services-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  max-width: 59rem;
+  margin: 0 auto;
+  color: #071440;
+  text-align: center;
+}
+.services-header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #899aa2;
+  text-align: center;
+  width: 50rem;
+  margin: 0 auto;
+
+  justify-content: center;
+}
+.services-list {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+.services-card {
+  background: #fcfcfc;
+  border-radius: 1rem;
+  height: 37rem;
+  padding: 0;
+  text-align: center;
+}
+.services-card img {
+  width: 7rem;
+  height: 7rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.services-card h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.6rem;
+  line-height: 6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #071c1f;
+}
+.services-card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  max-width: 30rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #8c8c8c;
+}
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1;
+}
+
+.learn-more i,
+.learn-more svg,
+.learn-more img {
+  display: block;
+  font-size: 14px;
+}
+.services-list a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  max-width: 30rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #071c1f;
+  margin-top: 2.5rem;
+}
+.today-sell-component {
+  display: flex;
+  margin-top: 8rem;
+  min-height: 58rem;
+}
+.today-sell-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.86rem;
+  font-weight: 600;
+  color: #233638;
+  font-family: "Nunito", sans-serif;
+}
+.today-sell-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  font-style: bold;
+  letter-spacing: -0.015em;
+  max-width: 59rem;
+  margin: 0 auto;
+  color: #071440;
+}
+.today-sell-header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #899aa2;
+  width: 50rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.today-sell-list {
+  list-style: none;
+  padding-left: 0;
+  min-height: 20rem;
+}
+
+.today-sell-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #899aa2;
+  padding-top: 1rem;
+}
+
+.today-sell-list li::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: #ff5a3c;
+  flex-shrink: 0;
+}
+
+.today-sell-slide {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.today-sell-slide .houses {
+  width: 33rem;
+  height: 8rem;
+}
+
+.today-sell-slide .house-card {
+  width: 10rem;
+  height: 5.6rem;
+}
+
+.today-sell-slide .house-1,
+.today-sell-slide .house-2,
+.today-sell-slide .house-3 {
+  height: 5.6rem;
+}
+
+.today-sell-slide .house-1 {
+  width: 11rem;
+  height: 7rem;
+}
+
+.today-sell-slide .slider-numbers {
+  margin-left: 0;
+  margin-bottom: 1.6rem;
+}
+
+.today-sell-slide:has(.num-1:hover) .house-1,
+.today-sell-slide:has(.num-2:hover) .house-2,
+.today-sell-slide:has(.num-3:hover) .house-3 {
+  width: 11rem;
+  height: 7rem;
+}
+
+.today-sell-slide .house-card:hover {
+  width: 11rem;
+  height: 7rem;
+}
+
+.today-sell-slide:has(.num-2:hover) .house-1,
+.today-sell-slide:has(.num-3:hover) .house-1,
+.today-sell-slide:has(.house-2:hover) .house-1,
+.today-sell-slide:has(.house-3:hover) .house-1 {
+  width: 10rem;
+  height: 5.6rem;
+}
+.today-sell-visual {
+  display: flex;
+  gap: 1rem;
+}
+
+.today-sell-visual-large {
+  width: 31rem;
+  height: 47rem;
+  background-color: #c4c4c4;
+}
+
+.today-sell-visual-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.visual-small-top,
+.visual-small-bottom {
+  width: 25rem;
+  height: 23rem;
+  background-color: #c4c4c4;
+}
+.market-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+.market-tabs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #899aa2;
+}
+.market-tabs a {
+  text-decoration: none;
+  color: #899aa2;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid transparent;
+}
+.market-tabs a:hover {
+  border-bottom: 1px solid #ff5a3c;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+.market-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.market-heading h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+  color: #071440;
+}
+.market-heading p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #899aa2;
+  margin: 0 auto;
+}
+.property-list {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.property-card {
+  width: 40rem;
+  height: 41rem;
+  background-color: #c4c4c4;
+  position: relative;
+}
+.property-info {
+  padding: 2rem 2.4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+  width: 74%;
+  min-height: 14rem;
+}
+.market-button {
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  width: 7rem;
+  height: 5rem;
+  border: none;
+  background-color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+.property-info h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #071c1f;
+}
+.property-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #899aa2;
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.price {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #071c1f;
+  margin-top: 1.8rem;
+  transition: 0.3s ease;
+}
+.market-button svg path {
+  transition: 0.3s ease;
+}
+.property-card:hover .price {
+  color: #ff5a3c;
+}
+.property-card:hover .market-button {
+  background-color: #ff5a3c;
+}
+.property-card:hover .market-button svg path {
+  stroke: white;
+}
+.explore-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.explore-button .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.4rem;
+  padding: 0 2.4rem;
+  border: 1px solid #ff5a3c;
+  border-radius: 0;
+  background-color: white;
+  color: #ff5a3c;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.explore-button .btn:hover {
+  background-color: #ff5a3c;
+  color: white;
+}
+.market-showcase {
+  height: 28rem;
+  background-color: #c4c4c4;
+  position: relative;
+}
+
+.market-showcase-container {
+  height: 100%;
+  position: relative;
+}
+
+.market-mini-card {
+  width: 28rem;
+  height: 9.5rem;
+  background-color: white;
+  border-radius: 1.2rem;
+  position: absolute;
+  left: 50%;
+  top: 7.5rem;
+  transform: translateX(-35%);
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1.4rem;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
+}
+
+.market-mini-image {
+  width: 7rem;
+  height: 6.4rem;
+  background-color: #9aa8ad;
+  background-image: url("./house.png");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  flex-shrink: 0;
+}
+
+.market-mini-image svg {
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0.6rem;
+}
+
+.market-mini-info strong {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #071c1f;
+}
+
+.market-mini-info span {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #899aa2;
+}
+
+.market-mini-stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.market-mini-stats p {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #899aa2;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.market-mini-stats svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.market-unit-badge {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #ff5a3c;
+  color: white;
+  position: absolute;
+  left: 33%;
+  bottom: -4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.market-unit-badge span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.market-unit-badge strong {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.testimonial-header {
+  text-align: center;
+  padding-top: 10rem;
+}
+.testimonial-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 0 auto;
+  color: #071440;
+}
+.testimonial-header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #899aa2;
+  width: 50rem;
+  margin: 0 auto;
+}
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5rem;
+  padding-top: 5rem;
+}
+
+.testimonial-image-wrap {
+  position: relative;
+}
+.testimonial-image {
+  width: 32rem;
+  height: 37.2rem;
+  background-color: #c4c4c4;
+  border-radius: 0.8rem;
+}
+.testimonial-image-wrap::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #ff5a3c;
+  left: -2.6rem;
+  bottom: -2.6rem;
+  z-index: -1;
+  border-radius: 0.8rem;
+}
+.testimonial-text {
+  width: 45rem;
+  height: auto;
+  padding: 2.8rem 1rem;
+}
+
+.quote-icon {
+  width: 4rem;
+  height: 2.7rem;
+  margin-bottom: 2.3rem;
+}
+
+.review {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.9rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #071c1f;
+  margin-bottom: 1.8rem;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 2.4rem;
+}
+.stars img {
+  width: 1.8rem;
+  height: 1.8rem;
+  display: block;
+}
+.customer-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #071c1f;
+  margin-bottom: 0.3rem;
+}
+.role {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: #6d7781;
+}
+.testimonial-arrow {
+  width: 5.2rem;
+  height: 5.2rem;
+  border: 0.1rem solid #ff5a3c;
+  background-color: #fff;
+  color: #ff5a3c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+  flex: 0 0 auto;
+}
+.testimonial-arrow:hover {
+  background-color: #ff5a3c;
+  border-color: #ff5a3c;
+  color: white;
+  box-shadow: 0 1.5rem 3.5rem rgba(255, 90, 60, 0.28);
+}
+.arrow-prev {
+  margin-right: 0.8rem;
+}
+.arrow-next {
+  margin-left: 0.8rem;
+}
+.project-container {
+  height: auto;
+  margin-top: 15rem;
+}
+.project-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: #071440;
+  width: 55rem;
+}
+.project-city-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.city-card {
+  width: 30rem;
+  height: 20rem;
+  background-color: #8a8a8a;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.1);
+  transition: 0.25s;
+}
+.city-card h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  line-height: 10rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.city-card button {
+  height: 5rem;
+  width: 14rem;
+  border: none;
+  background-color: white;
+  color: #ff5a3c;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  justify-content: center;
+  box-shadow: 0 10px 18px rgba(255, 90, 60, 0.18);
+}
+.city-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: none;
+}
+.project-email-box {
+  width: 56rem;
+  height: 6.8rem;
+  background: #f6f6f6;
+  border-radius: 1.2rem;
+  margin: 5.8rem auto 0;
+  display: flex;
+  align-items: center;
+  padding: 0 0.8rem 0 2.5rem;
+}
+.mail-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-email-box input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #071c1f;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+}
+.project-email-box input::placeholder {
+  color: #b8b8b8;
+}
+.project-email-box button {
+  width: 13.8rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #ff5a3c;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.blog-container {
+  margin-top: 10rem;
+  height: auto;
+  padding-bottom: 10rem;
+}
+.blog-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: #071440;
+}
+.blog-header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #899aa2;
+  width: 34rem;
+  margin: 0 auto;
+}
+.blog-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.blog-card {
+  width: 32rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  transition: 0.25s;
+}
+.blog-card:hover {
+  box-shadow: 0 1.8rem 4rem rgba(0, 0, 0, 0.12);
+}
+.blog-img {
+  height: 18rem;
+  background-color: #c4c4c4;
+}
+.blog-card-content {
+  background-color: #fff;
+  padding: 2.4rem 1.8rem 2.2rem;
+}
+.blog-card-content h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #071c1f;
+  margin-bottom: 1.3rem;
+}
+.blog-type {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #ff5a3c;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.blog-card-content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #899aa2;
+  margin-bottom: 2rem;
+}
+.blog-meta {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  color: #899aa2;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+}
+.blog-meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.blog-meta b {
+  color: #ff5a3c;
+  font-weight: 400;
+}
+.blog-read-all {
+  width: 14.8rem;
+  height: 5.2rem;
+  border: 0.1rem solid #ff5a3c;
+  color: #ff5a3c;
+  background: white;
+  display: block;
+  margin: 6rem auto 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.blog-read-all:hover {
+  background: #ff5a3c;
+  color: white;
+}
+
+.contacts-container {
+  margin-top: 10rem;
+  height: auto;
+  padding-bottom: 10rem;
+}
+.contacts-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-header h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: #071440;
+}
+.contacts-header h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FF5A3C;
+  width: 34rem;
+  margin: 0 auto;
+}
+.contacts-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12rem;
+  margin-top: 5rem;
+}
+.contacts-info {
+  height: auto;
+  width: 52rem;
+}
+.contacts-info p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #8c8c8c;
+}
+.contacts-info > p {
+  font-size: 0;
+  line-height: 0;
+}
+.contacts-info > p::before {
+  content: "Browse our property listing and find your best and suitable home or house for sale, rent and buying. It's so easy and fast.";
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  color: #8c8c8c;
+  max-width: 42rem;
+}
+
+.contacts-list {
+  max-width: 42rem;
+}
+
+.contacts-info li {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 600;
+  text-align: left;
+  color: #242424;
+  list-style: none;
+}
+.contacts-info li::before {
+  content: "✓";
+  color: #ff5a3c;
+  margin-right: 0.8rem;
+}
+.contacts-info li::before {
+  content: "\2713";
+}
+.contacts-visual {
+  width: 52rem;
+  height: 25rem;
+  position: relative;
+  margin-top: 5.8rem;
+}
+.contact-img-one {
+  width: 27rem;
+  height: 17rem;
+  background-color: #c4c4c4;
+  position: absolute;
+  left: .5rem;
+  top: 1rem;
+  border-radius: .6rem;
+}
+.contact-img-two {
+  width: 41rem;
+  height: 18rem;
+  background-color: #c4c4c4;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: .6rem;
+}
+.contact-small-box {
+  width: 5.7rem;
+  height: 5.7rem;
+  background-color: #ff5a3c;
+  position: absolute;
+  left: 31rem;
+  top: -1rem;
+  border-radius: .7rem;
+  z-index: 2;
+}
+.contact-small-box::after {
+  content: "";
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #222832;
+  position: absolute;
+  right: -.8rem;
+  top: -.8rem;
+  border-radius: .6rem;
+}
+.contacts-form {
+  width: 42rem;
+  background-color: #f3f6f7;
+  border-radius: .8rem;
+  padding: 4.4rem 3.5rem 3.4rem;
+}
+.contacts-form h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 800;
+  color: #242832;
+  margin-bottom: 3rem;
+}
+.contacts-form label {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  color: #777;
+  margin-bottom: .8rem;
+}
+.contacts-form input,
+.contacts-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: .5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  color: #242424;
+  padding: 0 1.5rem;
+  margin-bottom: 2.1rem;
+}
+.contacts-form input {
+  height: 5rem;
+}
+.contacts-form textarea {
+  height: 10.4rem;
+  padding-top: 1.5rem;
+  resize: none;
+}
+.contacts-form input::placeholder,
+.contacts-form textarea::placeholder {
+  color: #b7b7b7;
+}
+.contacts-form button {
+  width: 11.5rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: .7rem;
+  color: #fff;
+  background-color: #ff5a3c;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.footer {
+  background-color: #171b2a;
+  min-height: 29.5rem;
+  position: relative;
+  color: white;
+  padding-top: 4.6rem;
+  padding-bottom: 4.2rem;
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  height: 1rem;
+  background-color: #ff5a3c;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr .8fr .8fr .8fr 2fr;
+  gap: 5rem;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: 2.2rem;
+}
+.footer-logo span {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: white;
+}
+.footer-brand p {
+  font-family: "Nunito", sans-serif;
+  color: rgba(255,255,255,.73);
+  font-size: 1.55rem;
+  line-height: 2.8rem;
+}
+.footer-social {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+.footer-social button {
+  width: 2.8rem;
+  height: 2.8rem;
+  border: .1rem solid #ff5a3c;
+  background: transparent;
+  color: #ff5a3c;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.footer-social button:hover {
+  background: #ff5a3c;
+  color: #fff;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+.footer-column h3,
+.footer-office h3 {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+.footer-column a {
+  font-family: "Nunito", sans-serif;
+  color: rgba(255,255,255,.62);
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-column a:hover {
+  color: #ff5a3c;
+}
+.footer-office p {
+  font-family: "Nunito", sans-serif;
+  color: rgba(255,255,255,.62);
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.footer-news-title {
+  margin-top: 4.5rem;
+}
+.footer-form {
+  width: 31rem;
+  height: 4.4rem;
+  border-bottom: .1rem solid rgba(255,255,255,.18);
+  display: flex;
+  align-items: center;
+}
+.footer-form input {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+}
+.footer-form input::placeholder {
+  color: rgba(255,255,255,.35);
+}
+.footer-form button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding-top: .5rem;
+}
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  margin-top: 5.7rem;
+  align-items: center;
+}
+.footer-bottom a,
+.footer-bottom p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  color: rgba(255,255,255,.55);
+  text-decoration: none;
+}
+.footer-bottom a {
+  width: fit-content;
+  border-bottom: .1rem solid rgba(255,255,255,.22);
+  padding-bottom: .7rem;
+}
+
+@media (max-width: 1100px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 6rem;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding-top: 6rem;
+  }
+
+  .hero-arrow {
+    display: none;
+  }
+
+  .hero-visual {
+    width: 55.6rem;
+    max-width: 100%;
+    height: 45.2rem;
+    min-height: 0;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .how-btn {
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: 0;
+  }
+
+  .revenue-card {
+    left: 2rem;
+    top: auto;
+    bottom: 2rem;
+  }
+
+  .hero-slider {
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .guide-list {
+    flex-wrap: wrap;
+  }
+
+  .dream-component,
+  .today-sell-component {
+    flex-direction: column;
+  }
+
+  .dream-content {
+    padding-left: 0;
+  }
+
+  .dream-image {
+    width: 46rem;
+    max-width: 100%;
+    height: 60rem;
+  }
+
+  .dream-content p,
+  .feature-list,
+  .feature-list p,
+  .today-sell-header p,
+  .services-header p {
+    width: 100%;
+  }
+
+  .services {
+    height: auto;
+    padding-bottom: 8rem;
+  }
+
+  .services-card {
+    height: auto;
+    min-height: 37rem;
+  }
+
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonial-content {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  .project-container {
+    margin-top: 10rem;
+  }
+
+  .project-city-list,
+  .blog-list {
+    flex-wrap: wrap;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+
+  .footer-office {
+    grid-column: span 2;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+
+  .contacts-content {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .contacts-info {
+    width: 52rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar,
+  .navbar {
+    height: auto;
+  }
+
+  .top-bar .container,
+  .navbar .container {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .nav-items {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero-visual {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 556 / 452;
+  }
+
+  .dream-image {
+    height: 44rem;
+  }
+
+  .dream-img-back,
+  .dream-img-front {
+    width: 32rem;
+    height: 42rem;
+  }
+
+  .dream-img-front {
+    left: 5rem;
+    top: 0;
+  }
+
+  .rating {
+    width: 9rem;
+    height: 9rem;
+    right: 0;
+    top: 0;
+  }
+
+  .today-sell-visual-large {
+    width: 55%;
+    height: auto;
+    aspect-ratio: 31 / 47;
+  }
+
+  .today-sell-visual-side {
+    width: 45%;
+  }
+
+  .visual-small-top,
+  .visual-small-bottom {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 25 / 23;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-header p,
+  .project-header h2,
+  .blog-header p {
+    width: 100%;
+  }
+
+  .testimonial-content {
+    flex-direction: column;
+  }
+
+  .testimonial-arrow {
+    display: none;
+  }
+
+  .testimonial-text {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .project-city-list,
+  .blog-list {
+    flex-direction: column;
+  }
+
+  .city-card,
+  .blog-card {
+    width: 100%;
+    max-width: 36rem;
+  }
+
+  .project-email-box {
+    width: 100%;
+    max-width: 56rem;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-office {
+    grid-column: span 2;
+  }
+
+  .footer-form {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts-header h2 {
+    font-size: 3.4rem;
+    line-height: 4.2rem;
+  }
+
+  .contacts-content {
+    flex-direction: column;
+  }
+
+  .contacts-info,
+  .contacts-form,
+  .contacts-visual {
+    width: 100%;
+  }
+
+  .contacts-form {
+    max-width: 42rem;
+  }
+
+  .contacts-visual {
+    max-width: 52rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-tittle,
+  .guide-header h2,
+  .dream-content h2,
+  .today-sell-header h2,
+  .services-header h2,
+  .testimonial-header h2,
+  .project-header h2,
+  .blog-header h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  .dream-image {
+    height: 36rem;
+  }
+
+  .dream-img-back,
+  .dream-img-front {
+    width: 26rem;
+    height: 34rem;
+  }
+
+  .dream-img-front {
+    left: 4rem;
+  }
+
+  .today-sell-slide {
+    flex-wrap: wrap;
+  }
+
+  .today-sell-slide .houses {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .today-sell-visual {
+    flex-direction: column;
+  }
+
+  .today-sell-visual-large,
+  .today-sell-visual-side,
+  .visual-small-top,
+  .visual-small-bottom {
+    width: 100%;
+  }
+
+  .testimonial-image {
+    width: 26rem;
+    height: 31rem;
+  }
+
+  .review {
+    font-size: 1.55rem;
+    line-height: 3rem;
+  }
+
+  .project-email-box {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 1.4rem;
+    gap: 1rem;
+  }
+
+  .project-email-box input {
+    height: 4rem;
+    min-width: 20rem;
+  }
+
+  .project-email-box button {
+    width: 100%;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-office {
+    grid-column: auto;
+  }
+
+  .footer {
+    padding-top: 4rem;
+  }
+
+  .contacts-form {
+    padding: 3rem 2rem;
+  }
+
+  .contacts-form h2 {
+    font-size: 3.2rem;
+  }
+
+  .contacts-visual {
+    height: 21rem;
+  }
+
+  .contact-img-one {
+    width: 21rem;
+    height: 13rem;
+  }
+
+  .contact-img-two {
+    width: 28rem;
+    max-width: 88%;
+    height: 14rem;
+  }
+
+  .contact-small-box {
+    left: 58%;
+    top: 0;
+  }
+}

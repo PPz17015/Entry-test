@@ -1,0 +1,19 @@
+<svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coin -->
+  <circle cx="17" cy="8" r="7" fill="#FFE08A"></circle>
+  <circle cx="17" cy="8" r="5.8" stroke="#FF8A3D" stroke-width="1.2"></circle>
+  <path d="M17 4.6V11.4" stroke="#FF5A3C" stroke-width="1.2" stroke-linecap="round"></path>
+  <path d="M19.1 6.2C18.7 5.5 17.9 5.1 17 5.1C15.9 5.1 15.1 5.7 15.1 6.5C15.1 8.4 19 7.5 19 9.7C19 10.6 18.1 11.2 17 11.2C16 11.2 15.2 10.8 14.8 10.1" stroke="#FF5A3C" stroke-width="1.1" stroke-linecap="round"></path>
+
+  <!-- Bar 1 -->
+  <rect x="6" y="24" width="5" height="8" rx="1" fill="#FF5A3C"></rect>
+  <path d="M8.5 18L13 23H4L8.5 18Z" fill="#FF5A3C"></path>
+
+  <!-- Bar 2 -->
+  <rect x="15" y="19" width="5" height="13" rx="1" fill="#FF5A3C"></rect>
+  <path d="M17.5 13L22 18H13L17.5 13Z" fill="#FF5A3C"></path>
+
+  <!-- Bar 3 -->
+  <rect x="24" y="15" width="5" height="17" rx="1" fill="#FF5A3C"></rect>
+  <path d="M26.5 9L31 14H22L26.5 9Z" fill="#FF5A3C"></path>
+</svg>
